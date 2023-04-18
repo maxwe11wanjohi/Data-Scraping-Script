@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 import pandas as pd
 
-keyword = 'alcohol'
+keyword = 'Data'
 url = f'https://www.google.com/search?q={keyword}&start=0'
 response = requests.get(url, headers={'User-Agent': 'Mozilla/5.0'})
 
